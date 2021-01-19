@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The HTML5 Herald</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: rgb(235, 233, 109);">
+    <div class="container">
+        <div id= "titulo1" class="row">
+            <div class="column" style="text-align: center;">
+                <h2>Simulación carrito de compras + Animaciones en JQuery + Manejo JSON</h2>
+            </div>
+        </div>
+
+        <div class="row" style="text-align: center;">
+            <div class="column">
+                <h3>Seleccione los productos a comprar:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" id="notificaciones" style="text-align: center;">
+                <h6>Producto elegido: </h6>
+            </div>
+        </div>
+        <div class="row">
+            <div id="contenidoGenerado" class="column">
+            </div>
+
+            <div id="carrito" style="display: none;" class="column column-20">
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row" id="titulo2">
+            <div class="column column-20">
+                <button id="enviarPost">Enviar Post</button>
+            </div>
+            <div id = "contenidoPost" class="column column-80" style="text-align: center;">
+                <h4>Información enviada por POST de productos seleccionados a JSON Placeholder: </h4>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

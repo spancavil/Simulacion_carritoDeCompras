@@ -1,0 +1,23 @@
+button {
+    background-color: rgba(104, 102, 1, 0.61);
+    color: #e8f85a;
+    transition-duration: 0.4s; /** Agregamos una transición cuando se pare en el botón**/
+}
+
+#carrito{
+    color: rgba(104, 102, 1, 0.61);
+    text-align: center;
+}
+
+.carritoSVG{
+    height: 25px;
+    width: 25px;
+}
+
+#notificaciones{
+    position: fixed;
+    left: 0;
+    top: 40%;
+    width: 10em;
+    margin-top: 0;
+}
